@@ -19,6 +19,8 @@ On the browser side the following have been tested:
   * Chrome 5.0.375.70 (OSX, Windows 7, Linux 32-bit. Linux 64-bit appears to have broken websocket support)
   * Safari 5.0 (On OSX 10.6)
 
+Firefox 3.7 should in theory work - it has the requisite support - but of course, doesn't.   Getting this to work sounds like a good exercise for the reader...
+
 Otherwise the Webkit nightly builds should work - although updated websocket support will probably break things in the near future. As soon as the new websocket standard makes it into released browsers we will update the code.
 
 == Netifaces ==
@@ -31,7 +33,7 @@ If available it will use the netifaces module which does generally do a better j
 
 Download the tarball or check out the source code:
 {{{
-python setup.py install
+sudo python setup.py install
 }}}
 
 = Testing =
@@ -53,4 +55,6 @@ This produces output files in the ./tests/output directory. The file test.html w
 
 Be aware that these test results can be pretty massive and may well lead to browser instability. You can run on a restricted set of tests by using a wildcard parameter (see test.py --help)
 
-There is also the option of rendering each canvas on the page to a png for easier side by side comparison. To do this run {{{python rec.py}}} once you have a completed test run. At the bottom of the test.html page click the "Connect" button. Then click the "Put Images to Server" button. The rec.py instance should indicate a variety of files being written to disk. Then open the test_rendered.html page which will have a side by side column of png's.
+There is also the option of rendering each canvas on the page to a png for easier side by side comparison. To do this run 
+{{{python rec.py}}} 
+once you have a completed test run. At the bottom of the test.html page click the "Connect" button. Then click the "Put Images to Server" button. The rec.py instance should indicate a variety of files being written to disk. Then open the test_rendered.html page which will have a side by side column of png's.
