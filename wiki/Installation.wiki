@@ -1,6 +1,4 @@
 #labels install,installation,testing,requirements
-#requirements and installation instructions
-
 = Requirements =
 
 We have tried to keep this module as free from dependencies as possible in order to open up the widest possible installation base.
@@ -16,12 +14,11 @@ Anyway, here are the current base system requirements prior to installation:
 
 On the browser side the following have been tested:
 
-  * Chrome 5.0.375.70 (OSX, Windows 7, Linux 32-bit. Linux 64-bit appears to have broken websocket support)
+  * Chrome 5.0.375.70 (OSX, Windows 7, Linux 32-bit/64-bit)
   * Safari 5.0 (On OSX 10.6)
+  * Firefox 3.7a6pre (OSX, Windows 7, Linux)
 
-Firefox 3.7 should in theory work - it has the requisite support - but of course, doesn't.   Getting this to work sounds like a good exercise for the reader...
-
-Otherwise the Webkit nightly builds should work - although updated websocket support will probably break things in the near future. As soon as the new websocket standard makes it into released browsers we will update the code.
+The code now supports both draft-75 and -76 websockets and so should be reasonably future proof (until they change the standard again).
 
 == Netifaces ==
 
