@@ -64,3 +64,4 @@ python rec.py
 }}}
 
 once you have a completed test run. At the bottom of the test.html page click the "Connect" button. Then click the "Put Images to Server" button. The `rec.py` instance should indicate a variety of files being written to disk. Then open the `test_rendered.html` page which will have a side-by-side column of PNGs.
+
