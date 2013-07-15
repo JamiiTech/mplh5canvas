@@ -6,6 +6,7 @@ The current base system requirements prior to installation are:
 
   * Python 2.5, 2.6 or 2.7 (2.4 should also be OK, but has not been tested)
   * [http://matplotlib.sourceforge.net/ Matplotlib] 0.99.1.1 or newer
+  * [http://code.google.com/p/pywebsocket/ pywebsocket] 0.6 or newer (will be automatically installed if you are going the *easy_install mplh5canvas* route)
 
 
 If you want to make use of *easy_install* as suggested in the instructions below, you should install [https://pypi.python.org/pypi/setuptools setuptools]. Alternatively you can use *pip* instead of *easy_install* by installing the [http://www.pip-installer.org/ pip] Python package.
@@ -56,7 +57,7 @@ Since this package is available on [https://pypi.python.org/pypi/mplh5canvas PyP
 easy_install mplh5canvas
 }}}
 
-Alternatively, download the latest tarball or check out the source code from Google Code and do:
+Alternatively, install mod_pywebsocket yourself, download the latest mplh5canvas tarball (or check out the source code) from the [https://code.google.com/p/mplh5canvas Google Code] page and do:
 
 {{{
 python setup.py install
