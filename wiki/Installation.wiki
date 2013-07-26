@@ -5,7 +5,7 @@ We have tried to keep this module as free of dependencies as possible in order t
 The current base system requirements prior to installation are:
 
   * Python 2.5, 2.6 or 2.7 (2.4 should also be OK, but has not been tested)
-  * [http://matplotlib.sourceforge.net/ Matplotlib] 0.99.1.1 or newer
+  * [http://matplotlib.sourceforge.net/ matplotlib] 0.99.1.1 or newer (will be automatically installed if you are going the *easy_install mplh5canvas* route)
   * [http://code.google.com/p/pywebsocket/ pywebsocket] 0.6 or newer (will be automatically installed if you are going the *easy_install mplh5canvas* route)
 
 
